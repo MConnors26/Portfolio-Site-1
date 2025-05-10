@@ -1,0 +1,42 @@
+#software {
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#marketing {
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    grid-gap: 10px;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+img {
+    width: 250px;
+    height: 350px;
+}
+
+#gallery img {
+    width: 100%;
+    transition: all 0.3s;
+}
+
+#gallery img:hover:not(.full){
+    transform: scale(1.1);
+}

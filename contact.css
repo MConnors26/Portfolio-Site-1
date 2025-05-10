@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    line-height: 1.3;
+}
+
+#contact {
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 850px;
+    margin: 50px auto;
+    background: black;
+    padding: 30px;
+    box-shadow: 0px 3px 8px whitesmoke;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#contact:hover{
+    transform: scale(1.03);
+}
+
+#contact h1{
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+#contact p{
+    text-align: center;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+#form {
+    display: grid;
+    gap: 20px;
+}
+
+#form #form-part{
+    display: flex;
+    flex-direction: column;
+}
+
+#form label{
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#form input, #form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#form textarea{
+    height: 125px;
+}
+
+#form button{
+    padding: 15px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#form button:hover{
+    background-color: #0056b3;
+
+}
